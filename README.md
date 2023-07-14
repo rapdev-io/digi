@@ -2,12 +2,12 @@
 
 Meet your new ServiceNow Digital Developer, ‘Digi’.
 
-**What Digi does**:
+**What Digi does**:\
   Digi gives ServiceNow developers a github co-pilot like experience directly on the ServiceNow platform to assist with generating code.
-**Why Digi was made**:
+**Why Digi was made**:\
   Open Source provides advantages to innovate however we want, collectively as a ServiceNow ecosystem. This is especially important when it comes to AI and our precious data. We should all be able to choose what data to integrate with and where the security perimeter is. And moreover, there should not be a price tag associated with it.
 
-**How Digi works**:
+**How Digi works**:\
 It is more than a code generator; Digi has a framework which provides a flexible and configurable AI future on ServiceNow (paradigm details are in the repo). Some examples:
 ·         Integrate with popular models or AI engines (codex, bard, your private Starcoder stack).
 ·         Configure parameters for the chosen model.
