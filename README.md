@@ -6,19 +6,19 @@ Meet your new ServiceNow Digital Developer, ‘Digi’.
   Digi gives ServiceNow developers a github co-pilot like experience directly on the ServiceNow platform to assist with generating code.
 **Why Digi was made**:\
   Open Source provides advantages to innovate however we want, collectively as a ServiceNow ecosystem. This is especially important when it comes to AI and our precious data. We should all be able to choose what data to integrate with and where the security perimeter is. And moreover, there should not be a price tag associated with it.
-
+\\
 **How Digi works**:\
-It is more than a code generator; Digi has a framework which provides a flexible and configurable AI future on ServiceNow (paradigm details are in the repo). Some examples:
-·         Integrate with popular models or AI engines (codex, bard, your private Starcoder stack).
-·         Configure parameters for the chosen model.
-·         Configure prompts, prefixes and postfixes for messages sent to the AI engine.
-·         Have a full trace log of everything that AI does on your platform.
-·         Validate changes prior to allowing Digi to directly modify your environment.
-When a user types ‘@digi’ in a ServiceNow script field followed by a written statement then hits tab, Digi will send that statement (and any configured prompts) to the configured AI engine and provide the script on the screen for the developer. The developer then accepts the changes and Digi will add the new code to the script field.
-Head to the repo, take Digi for a spin, collaborate with the project team and create a pull request. Let’s make Digi better together and make AI work for us in many ways.
-
-
-**Database Architecture**
+It is more than a code generator; Digi has a framework which provides a flexible and configurable AI future on ServiceNow (paradigm details are in the repo). Some examples:\
+          * Integrate with popular models or AI engines (codex, bard, your private Starcoder stack).\
+          * Configure parameters for the chosen model.\
+          * Configure prompts, prefixes and postfixes for messages sent to the AI engine.\
+          * Have a full trace log of everything that AI does on your platform.\
+          * Validate changes prior to allowing Digi to directly modify your environment.\
+When a user types ‘@digi’ in a ServiceNow script field followed by a written statement then hits tab, Digi will send that statement (and any configured prompts) to the configured AI engine and provide the script on the screen for the developer. The developer then accepts the changes and Digi will add the new code to the script field.\
+Head to the repo, take Digi for a spin, collaborate with the project team and create a pull request. Let’s make Digi better together and make AI work for us in many ways.\
+\\
+\\
+**Database Architecture**\
 ![image](https://github.com/rapdev-io/digi/assets/34044520/96c1abb8-f29a-4161-b6cf-a894e03f247a)
 
 **Request**
