@@ -156,6 +156,8 @@ None
   * Digi will do more than write code. Build a workflow, work a ticket, create new records, analyze an incident to provide real time context in the activity/work notes based on all the relevant data at its disposal.  
 There are many more amazing things Digi will do. Digi is going to be a big part of how the AI future works on ServiceNow, by putting flexibility, options, and openness first.  
 We want anyone interested to be a part of it.  
-**How to get involved**:  
+
+
+## How to get involved ##:  
 Star the repo and sign up to join the quarterly architectural board meeting (all details are in the repo). RapDev will host this meeting and invite people to speak about where we can collectively take AI on ServiceNow, together.
 
