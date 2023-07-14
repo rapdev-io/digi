@@ -158,6 +158,6 @@ There are many more amazing things Digi will do. Digi is going to be a big part 
 We want anyone interested to be a part of it.  
 
 
-## How to get involved ##:  
+## How to get involved:  
 Star the repo and sign up to join the quarterly architectural board meeting (all details are in the repo). RapDev will host this meeting and invite people to speak about where we can collectively take AI on ServiceNow, together.
 
