@@ -120,9 +120,10 @@ None
   * Instances - the list of ServiceNow instances in which this Action is allowed.  Ex: “Write a script” may not be allows in the production instance.   
   * Roles - the list of roles in which this Actionis allowed.  Ex:  “Write a script” will only be allowed for admin users.  
 **Related Tables**  
-none.  
+none.
+
 **Log**  
-Similar to the system log, but tied directly to a Request, it houses transactional information logged here during the lifecycle of a Request.  
+>Similar to the system log, but tied directly to a Request, it houses transactional information logged here during the lifecycle of a Request.  
   * A transactional table.  
   * Captures various debug, info, warning, and error messages logged by various digi components.  
 **Important Data Items**:  
@@ -159,5 +160,5 @@ We want anyone interested to be a part of it.
 
 
 ## How to get involved:  
-Star the repo and sign up to join the quarterly architectural board meeting (all details are in the repo). RapDev will host this meeting and invite people to speak about where we can collectively take AI on ServiceNow, together.
+> Star the repo and sign up to join the quarterly architectural board meeting (all details are in the repo). RapDev will host this meeting and invite people to speak about where we can collectively take AI on ServiceNow, together.
 
