@@ -1,0 +1,1413 @@
+<?xml version="1.0" encoding="UTF-8"?><unload unload_date="2023-07-17 17:46:59">
+<sys_remote_update_set action="INSERT_OR_UPDATE">
+<application display_value="Global">global</application>
+<application_name>Global</application_name>
+<application_scope>global</application_scope>
+<application_version/>
+<collisions/>
+<commit_date/>
+<deleted/>
+<description>Config data settings for Digi app + some UI components</description>
+<inserted/>
+<name>Digi Global</name>
+<origin_sys_id/>
+<parent display_value=""/>
+<release_date/>
+<remote_base_update_set display_value=""/>
+<remote_parent_id/>
+<remote_sys_id>a1a739d21b403d10d1dca685ec4bcb28</remote_sys_id>
+<state>loaded</state>
+<summary/>
+<sys_class_name>sys_remote_update_set</sys_class_name>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d8b5c2921b803d10d1dca685ec4bcb9c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<update_set display_value=""/>
+<update_source display_value=""/>
+<updated/>
+</sys_remote_update_set>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_fae9b4101b07e150d4e599f91d4bcb6a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Given a script, ask AI to refactor the code using best practices </description><instances>DEV</instances><name>Refactor a script</name><roles>admin</roles><sequence>50</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:05:16</sys_created_on><sys_id>fae9b4101b07e150d4e599f91d4bcb6a</sys_id><sys_mod_count>15</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>1964975753</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>10b5c2161b803d10d1dca685ec4bcbd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7b200000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Refactor a script</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>ddf7f956cb403d103739af38691e7d3e</update_guid>
+<update_guid_history>ddf7f956cb403d103739af38691e7d3e:1964975753,b7e7b95673403d106522b39388272edd:700921044,8bd0399ef5003d1059e149f1ee2de20e:1964975753,fdd0f59eb6003d10b08324fed63f8ad3:700921044,5535ad921b003d105efd9f601e055bea:1964975753,8d35a952f2003d10e6fdbff0ec901fa3:700921044,f889dd56e2ccf910bcfb2fb3321d8e7f:1964975753,5f79dd56faccf9103d9bdec3f907d710:700921044,ac4311de808cf9104743d0f0b3e5a8a0:1964975753,0b3311dea58cf9107ff761c4d747241b:700921044,c2325d5e2d8cf910d85086d464718780:1964975753,6c325d5efe8cf91001b62835701e780b:700921044,d8d1955e658cf910b362ab860c59986d:1964975753,16c1555ed98cf910162afa48d63048d7:700921044,5ac1555e488cf910a3ebedbeacb87bd6:1964975753</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_79da75f41bd72110d4e599f91d4bcbd7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments>Tokens are not words.  It's complicated.  Requests can use up to 4097 tokens shared between prompt and completion. If your prompt is 4000 tokens, your completion can be 97 tokens at most. See: https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them . </comments><data_type>integer</data_type><param_name>max_tokens</param_name><param_type>rest</param_type><param_value>4000</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 18:21:35</sys_created_on><sys_id>79da75f41bd72110d4e599f91d4bcbd7</sys_id><sys_mod_count>14</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1922021755</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>10b5c2161b803d10d1dca685ec4bcbd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c125f10000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>max_tokens</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>bf58b1962f403d108f72228e22ee83df</update_guid>
+<update_guid_history>bf58b1962f403d108f72228e22ee83df:-1922021755,8a58b196e2403d10e624250595b12a42:-1992793560,435131de7d003d10d0710c9fb8a424b7:-1922021755,695131de9d003d10772578cbdbb45420:-1992793560,f941bd9ec0003d1065030e30a633e7ea:-1922021755,0441bd9ef0003d10a12d4c1d43a17a96:-1992793560,ee049dde1f8cf910081eb91b696717cb:-1922021755,78045dde0f8cf9107c2ddf700eb722fa:-1992793560,bc045ddec08cf91035e86ac4e62f73f9:-1922021755</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_7159053c1bd32110d4e599f91d4bcb49</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>false</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Compose a KB article">afd834501b07e150d4e599f91d4bcb23</request_action><sequence>50</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 14:45:19</sys_created_on><sys_id>7159053c1bd32110d4e599f91d4bcb49</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:38</sys_updated_on><text>Return the answer with HTML tags to emphasize key words and instructions.</text><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-1290260711</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>10b5c2161b803d10d1dca685ec4bcbdb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c0190b0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>7159053c1bd32110d4e599f91d4bcb49</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>8b18bd56f9403d10e9fddb7ecd94a30a</update_guid>
+<update_guid_history>8b18bd56f9403d10e9fddb7ecd94a30a:-1290260711,0e187d5609403d1015e586d61030d3eb:1489412412,8701f99e73003d105f26149afaad1d09:-1290260711,2501b99eb3003d1085417fb3902d49e9:1489412412,d09395de628cf910d6b6ef08f0def116:-1290260711,878355ded68cf910e59db195e204eae3:1489412412,cb8355de898cf910bf43346515bdfee2:-1290260711</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_5dc930901b07e150d4e599f91d4bcb9f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Given a script, ask AI to debug the code. </description><instances>DEV</instances><name>Debug a script</name><roles>admin</roles><sequence>40</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:04:38</sys_created_on><sys_id>5dc930901b07e150d4e599f91d4bcb9f</sys_id><sys_mod_count>17</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>885185348</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>10b5c2921b803d10d1dca685ec4bcb9e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7aed0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Debug a script</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>99f7f956a9403d10d73171d6a2f9c93c</update_guid>
+<update_guid_history>99f7f956a9403d10d73171d6a2f9c93c:885185348,73e7b956b2403d107a0e0221a477f7db:-1901153969,76d0399ed6003d1028e7e704b182700c:885185348,b9d0f59e7a003d10c6cfd750574603d1:-1901153969,55546552b8003d10087820f68584cc7f:885185348,eef3ad123b003d103917517ad0e8f336:531100564,42436512b1003d10d293a3e7148f24c7:885185348,2143e51282003d103c45a557f1588723:-1901153969,b489dd566eccf9109b5bccdc048a177d:885185348,1b79dd561dccf910d5bdcd5c01d1f80e:-1901153969,684311de228cf910863ca056b800d29e:885185348,c33311dedf8cf910f7f98fea23ae1019:-1901153969,8e325d5ebd8cf9105d644bb2744b0a7d:885185348,28325d5ea28cf910f1985f9b398b4b09:-1901153969,94d1955e118cf91084b42bfb35209a6b:885185348,92c1555e208cf91001cec3d651feaad4:-1901153969,d6c1555e758cf910c5b5624575ce81d3:885185348</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_4c4a28d01b7b2550d4e599f91d4bcbe4</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>array</data_type><param_name>messages</param_name><param_type>rest</param_type><param_value>[ {"role": "user", "content": "&lt;getPrompt&gt;"}]</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 19:43:54</sys_created_on><sys_id>4c4a28d01b7b2550d4e599f91d4bcbe4</sys_id><sys_mod_count>9</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>1236027934</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>14b5c2161b803d10d1dca685ec4bcbd7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1250c0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>messages</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>bb58b19631403d1007eca522cd645ed6</update_guid>
+<update_guid_history>bb58b19631403d1007eca522cd645ed6:1236027934,8658b196f3403d106ddebde0648c6839:1728525787,0b5131de9f003d10dfca193915770e88:1236027934,655131de7c003d10ceb45d962bab0217:1728525787,f541bd9e26003d1059dfe2d618ec58e1:1236027934,0041bd9e44003d1048afc8035ad0e58d:1728525787,da049dde128cf91088450fd5377f66c2:1236027934,70045dde918cf910d011505d3561e6ee:1728525787,b4045dde078cf9108c90cf60ce8bd4ed:1236027934</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_3e423b801b772550d4e599f91d4bcb61</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Ask a general question">259177041b772550d4e599f91d4bcb75</request_action><sequence>30</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 15:39:26</sys_created_on><sys_id>3e423b801b772550d4e599f91d4bcb61</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:20</sys_updated_on><text/><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>1330699890</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>14b5c2161b803d10d1dca685ec4bcbda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd54d0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>3e423b801b772550d4e599f91d4bcb61</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>f6083d56a5403d10e2cdd77260c5d6b8</update_guid>
+<update_guid_history>f6083d56a5403d10e2cdd77260c5d6b8:1330699890,3d083d56e1403d102340e11d177c1e65:-1500076683,aef0b99eb2003d1001a9ff46f8749e12:1330699890,9df0799e84003d1089a61e8ce6caef8a:-1500076683,b77315de498cf9107ad3994d60105598:1330699890,2a7315de848cf91087ab9ba762efac5c:-1500076683,6e7315de898cf910dee6fbbe5237445b:1330699890</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_0397c81c1bb72550d4e599f91d4bcb69</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>float</data_type><param_name>presence_penalty</param_name><param_type>rest</param_type><param_value>0.6</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:34</sys_created_on><sys_id>0397c81c1bb72550d4e599f91d4bcb69</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>1641781157</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>18b5c2161b803d10d1dca685ec4bcbd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c124340000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>presence_penalty</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>f758b95641403d10f536bec3aee576ee</update_guid>
+<update_guid_history>f758b95641403d10f536bec3aee576ee:1641781157,7558795651403d10089d922aafa9b201:1754448994,f251759edb003d10f7c5aed015ca889d:1641781157,a951b99e57003d109e6ef8b9bb0fe820:1754448994,a941f59e86003d103e63eacbf1558475:1641781157,7f317d9e14003d10d5f7147aac30fd33:1754448994,da041ddede8cf910bbbfdcf4f2a65a89:1641781157,24049d9e138cf910e7abb47480aad4de:1754448994,a4049d9eba8cf91004be729bf8620bdd:1641781157</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_e91546121b632d10d4e599f91d4bcbab</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments>the text of the prompt sent to the AI. ::prompt:: is the key-word to signal a replacement.</comments><data_type>string</data_type><param_name>prompt</param_name><param_type>rest</param_type><param_value>::prompt::</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-22 21:12:56</sys_created_on><sys_id>e91546121b632d10d4e599f91d4bcbab</sys_id><sys_mod_count>10</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>1914349256</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>18b5c2161b803d10d1dca685ec4bcbd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c127a50000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>prompt</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>8468b196d7403d1006a1dddf450907f2</update_guid>
+<update_guid_history>8468b196d7403d1006a1dddf450907f2:1914349256,8258b19692403d10e47d43e4a2bae255:1972372523,4b5131dedc003d103dd10cd0958083c9:1914349256,715131decd003d10579d2bfda4551033:1972372523,f141bd9e50003d104accf77a43c38bfd:1914349256,0c41bd9eff003d10cb867ce5d60a44a8:1972372523,e6049dde2e8cf910aa9590bbb98da7de:1914349256,78049dde0e8cf9102520f21e78e2ed13:1972372523,bc049ddedc8cf91047e5b7cd49a61f12:1914349256</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_model_0b93f3581b72a110d4e599f91d4bcb05</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine_model"><x_radi_digi_ai_engine_model action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><authorization>Bearer 1234abcd5678efgh</authorization><default>true</default><description>Can do any language task with better quality, longer output, and consistent instruction-following than the curie, babbage, or ada models. Also supports inserting completions within text.</description><max_tokens>4097</max_tokens><model>text-davinci-003</model><rest_method display_value="completions">273e51b71ba62110d1dca685ec4bcb5c</rest_method><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-10 17:20:53</sys_created_on><sys_id>0b93f3581b72a110d4e599f91d4bcb05</sys_id><sys_mod_count>22</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:17</sys_updated_on><type>text</type></x_radi_digi_ai_engine_model></record_update>]]></payload>
+<payload_hash>-1912729631</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>1cb5c2161b803d10d1dca685ec4bcbd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c0b3500000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>text-davinci-003</target_name>
+<type>AI Engine Model</type>
+<update_domain>global</update_domain>
+<update_guid>38483196d9403d1007d9c9983b5bd8b3</update_guid>
+<update_guid_history>38483196d9403d1007d9c9983b5bd8b3:-1912729631,c448fd56b7403d10f4290ed3443cb0fe:-117117858,bc31b99eac003d10df15e56dc7b35efe:-1912729631,8c31f59eb4003d108fd638cc3395da21:-117117858,80f359deea8cf910106769028ab78a5b:-1912729631,36e3d9de528cf91052b98f14d2cc3514:-117117858,76e3d9def28cf910c5b081a2ecdc3f13:-1912729631</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_a44ff5381bd72110d4e599f91d4bcb37</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments/><data_type>array</data_type><param_name>stop</param_name><param_type>rest</param_type><param_value>[" Human:", " AI:"]</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 18:40:53</sys_created_on><sys_id>a44ff5381bd72110d4e599f91d4bcb37</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>1497918478</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>1cb5c2161b803d10d1dca685ec4bcbd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c126d50000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>stop</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>b358b19654403d1041d24b5fb22eb3e9</update_guid>
+<update_guid_history>b358b19654403d1041d24b5fb22eb3e9:1497918478,8e58b196aa403d10ce6a63ae8880414b:195420337,475131de3f003d107ee3b67ea67838c0:1497918478,6d5131de7d003d10a5cae9b1c18e7e29:195420337,fd41bd9ec7003d10ece8eaca4b276ff3:1497918478,0841bd9ed0003d10d28a60c95d5eae9f:195420337,e2049dde2f8cf910990747048ca464d5:1497918478,70049dde5b8cf910dec317f7b862ba07:195420337,b4049ddeef8cf91022e466187b3aea06:1497918478</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_884e65851b80f510d1dca685ec4bcb63</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Ask a general question">259177041b772550d4e599f91d4bcb75</request_action><sequence>38</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-07-13 18:52:09</sys_created_on><sys_id>884e65851b80f510d1dca685ec4bcb63</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:21</sys_updated_on><text/><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>391867242</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>1cb5c2161b803d10d1dca685ec4bcbdb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd5fd0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>884e65851b80f510d1dca685ec4bcb63</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>fe083d5684403d10179b1db9b5c3d3bf</update_guid>
+<update_guid_history>fe083d5684403d10179b1db9b5c3d3bf:391867242,35083d561c403d104bbdeb4c8b5d9b6d:1856057965,a6f0b99ed7003d10e91fd571a762b41a:391867242,95f0799eaa003d103d0ad874a2301692:1856057965,b77315def08cf910458229ab5526909f:391867242,ee7315def38cf9106ecfcaa1a27de465:1856057965,267315de3a8cf9105e17d3ea1d298865:391867242</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_2e2a4be31b936d10d4e599f91d4bcbc2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments/><data_type>string</data_type><param_name>model</param_name><param_type>rest</param_type><param_value>text-davinci-003</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-14 13:11:27</sys_created_on><sys_id>2e2a4be31b936d10d4e599f91d4bcbc2</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1540195128</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>50b5c2161b803d10d1dca685ec4bcbd7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c124d20000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>model</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>f758b956ff403d10162c0226007cd9f5</update_guid>
+<update_guid_history>f758b956ff403d10162c0226007cd9f5:-1540195128,4258b19607403d105f11afa9ac1d1237:634546117,f25131dea5003d10d8d5d0582c276986:-1540195128,215131dec2003d10f85f8c7f4b2ca115:634546117,b141bd9e54003d107770f4177bd97edf:-1540195128,c841bd9e0d003d1004b96c5d3dad398a:634546117,96049dde0b8cf9107eb7f4a9f4e6fbc0:-1540195128,fc045dde1a8cf910af1a9472803be4ea:634546117,24045dde9f8cf91022ccbe5ae62adfea:-1540195128</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_34a091b71b662110d1dca685ec4bcbc2</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>false</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Ask a ServiceNow question">ae08bc9c1bc3e150d4e599f91d4bcb25</request_action><sequence>50</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-08 16:11:53</sys_created_on><sys_id>34a091b71b662110d1dca685ec4bcbc2</sys_id><sys_mod_count>11</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:38</sys_updated_on><text>Return the answer in English.</text><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-1531343599</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>50b5c2161b803d10d1dca685ec4bcbda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c018ca0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>34a091b71b662110d1dca685ec4bcbc2</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>8318bd5610403d10dbb8a1c7138e0708</update_guid>
+<update_guid_history>8318bd5610403d10dbb8a1c7138e0708:-1531343599,06187d5683403d10a6f191dbc95438e9:-838983602,4b01799ef6003d10b1270a857d84a753:-1531343599,2d01b99e5f003d1004da585c183807e6:-838983602,10939d9e1b8cf9102ad3d3aecf26fd8c:-1531343599,c38355de4e8cf910b62a8c5b84e031e0:-838983602,0b8355dee98cf91003b9c407413e87df:-1531343599</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_model_b0b6c01c1bb72550d4e599f91d4bcb62</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine_model"><x_radi_digi_ai_engine_model action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><authorization/><default>false</default><description>Most capable GPT-3.5 model and optimized for chat at 1/10th the cost of text-davinci-003.&#13;
+BUT... works for "chat" but not for 'completions'.</description><max_tokens>4096</max_tokens><model>gpt-3.5-turbo</model><rest_method display_value="chat_completions">012ddc141b3b2550d4e599f91d4bcb8e</rest_method><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:09:38</sys_created_on><sys_id>b0b6c01c1bb72550d4e599f91d4bcb62</sys_id><sys_mod_count>10</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:17</sys_updated_on><type>text</type></x_radi_digi_ai_engine_model></record_update>]]></payload>
+<payload_hash>-247898037</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>54b5c2161b803d10d1dca685ec4bcbd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c0b4020000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>gpt-3.5-turbo</target_name>
+<type>AI Engine Model</type>
+<update_domain>global</update_domain>
+<update_guid>3848319639403d10f68eaeefe68e02ba</update_guid>
+<update_guid_history>3848319639403d10f68eaeefe68e02ba:-247898037,c4483196b7403d1014c20d5f82936875:-735070136,bc31f99e54003d10c746b991a0785305:-247898037,c0317d9e9f003d1086945b662e85852f:-735070136,8cf31dde308cf910c77d28b8f564ecaf:-247898037,f6e31ddebf8cf91093951fad25a45686:-735070136,3ee31ddeaa8cf91024dc98b4e1351885:-247898037</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_cc2ff1f41bd72110d4e599f91d4bcb73</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments/><data_type>float</data_type><param_name>presence_penalty</param_name><param_type>rest</param_type><param_value>0.6</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 18:40:18</sys_created_on><sys_id>cc2ff1f41bd72110d4e599f91d4bcb73</sys_id><sys_mod_count>9</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-470509651</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>54b5c2161b803d10d1dca685ec4bcbd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1276d0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>presence_penalty</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>4068b196eb403d10874098370856a7f0</update_guid>
+<update_guid_history>4068b196eb403d10874098370856a7f0:-470509651,4e58b196a5403d103e214d4de0ed0552:1647564240,075131de67003d1063df099a07aa5ec7:-470509651,3d5131de4f003d107e952406b560b930:1647564240,bd41bd9e0d003d10e0e2bae5097a09fa:-470509651,c441bd9ec0003d109a878fc8d8bd0aa6:1647564240,a2049ddeb78cf910b74ad17f558ee4dc:-470509651,f4049ddeb38cf9100a5d0483c5a47010:1647564240,3c049dde238cf9101efb01e74bb66b0f:-470509651</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_ed705db71b662110d1dca685ec4bcb9d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>false</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Ask a ServiceNow question">ae08bc9c1bc3e150d4e599f91d4bcb25</request_action><sequence>40</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-08 16:11:06</sys_created_on><sys_id>ed705db71b662110d1dca685ec4bcb9d</sys_id><sys_mod_count>13</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:38</sys_updated_on><text>Keep the answer to 40 words or less.</text><type>postfix</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-576806012</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>54b5c2161b803d10d1dca685ec4bcbdc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c018980000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>ed705db71b662110d1dca685ec4bcb9d</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>8b183d5638403d101f94a172ac4dc820</update_guid>
+<update_guid_history>8b183d5638403d101f94a172ac4dc820:-576806012,4e187d5626403d106702798a95cf0ce6:586066369,8301799e84003d10e0d5d181e9441051:-576806012,6501b99ee7003d101d64759e236dc7e4:586066369,c8939d9e9c8cf910be992d0a862dbe89:-576806012,728355dec58cf910145540255c9888dd:586066369,b68355de438cf910b88fc3cefd6fd2dc:-576806012</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_cc573b9c1b72a110d4e599f91d4bcb05</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine"><x_radi_digi_ai_engine action="INSERT_OR_UPDATE"><active>true</active><api_component_name>DigiAPI_REST</api_component_name><api_component_type>script</api_component_type><api_key>1234567890ABC</api_key><authorization>Bearer 1234567890ABC</authorization><default>true</default><description>OpenAI bla bla bla</description><engine_id>OpenAI - 1.0.3</engine_id><frequency_interval>week</frequency_interval><frequency_limit>1000</frequency_limit><midserver/><name>OpenAI</name><query_length_max>4000</query_length_max><rest_message display_value="OpenAI Chat">a40ed1b71ba62110d1dca685ec4bcb16</rest_message><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-10 17:37:03</sys_created_on><sys_id>cc573b9c1b72a110d4e599f91d4bcb05</sys_id><sys_mod_count>22</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:02</sys_updated_on><version>1.0.3</version></x_radi_digi_ai_engine></record_update>]]></payload>
+<payload_hash>-501387149</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>58b5c2161b803d10d1dca685ec4bcbd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c076cd0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>OpenAI - 1.0.3</target_name>
+<type>AI Engine</type>
+<update_domain>global</update_domain>
+<update_guid>b438fd562d403d1022c06286605fab41</update_guid>
+<update_guid_history>b438fd562d403d1022c06286605fab41:-501387149,d8383d56bf403d10c7cccca7e34243c5:-223182546,51213d9e33003d10eb3e9fc45f92944d:-501387149,bc21f99eae003d10fccd964da1433a0c:-223182546,79b359de9d8cf910f9ed075bc59f7a1c:-501387149,24b319dec68cf910a666f3ce6e7f63a9:-223182546,68b319de6b8cf910ad3342fcf59702a8:-501387149</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_91a939741bd72110d4e599f91d4bcbb7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments/><data_type>integer</data_type><param_name>top_p</param_name><param_type>rest</param_type><param_value>1</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 18:17:20</sys_created_on><sys_id>91a939741bd72110d4e599f91d4bcbb7</sys_id><sys_mod_count>10</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1845345095</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>58b5c2161b803d10d1dca685ec4bcbd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c126970000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>top_p</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>7f58b19637403d10993f8327293185e6</update_guid>
+<update_guid_history>7f58b19637403d10993f8327293185e6:-1845345095,4a58b196ff403d105909d8e112690249:-8618378,035131de80003d103c4e6ab83239c0be:-1845345095,295131de9a003d10759fe7969a2f5327:-8618378,b941bd9e75003d10f7ed1b966ca642f1:-1845345095,c041bd9edc003d109fcacf9630e8e59d:-8618378,ae049ddefa8cf910d7fc1a0fdb266fd2:-1845345095,fc049dde318cf9108705b649f9405003:-8618378,34049dde948cf910e239f33bb18ecf03:-1845345095</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_82709e701b5f6110d1dca685ec4bcbb0</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>false</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Modify a script">24101a701b5f6110d1dca685ec4bcb0d</request_action><sequence>20</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 19:56:05</sys_created_on><sys_id>82709e701b5f6110d1dca685ec4bcbb0</sys_id><sys_mod_count>10</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:37</sys_updated_on><text>And given the following script:</text><type>source</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>991649504</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>58b5c2161b803d10d1dca685ec4bcbdb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c017fe0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>82709e701b5f6110d1dca685ec4bcbb0</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>07183d564a403d10dcfa788a955f0119</update_guid>
+<update_guid_history>07183d564a403d10dcfa788a955f0119:991649504,c618795627403d10dbcef59739cfeefc:-130973923,3e01799eaa003d10f63235928a254549:991649504,6901799e78003d102eec0a9c79c9a499:-130973923,c8939d9e188cf910e6117d60213d1482:991649504,f68311de7e8cf910379c91e817584a24:-130973923,3e8311de268cf910312df7d3679ef523:991649504</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_dd7695341b5b6110d1dca685ec4bcb33</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Given a script, write one or more functions to test the script.</description><instances>DEV</instances><name>Test a script</name><roles>admin</roles><sequence>70</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 15:44:00</sys_created_on><sys_id>dd7695341b5b6110d1dca685ec4bcb33</sys_id><sys_mod_count>17</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>1149157196</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>5cb5c2161b803d10d1dca685ec4bcbd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7b890000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Test a script</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>59f7f95672403d100d86c22402797343</update_guid>
+<update_guid_history>59f7f95672403d100d86c22402797343:1149157196,33e7b9567a403d105945732ad20b07e2:-491380265,0bd7795663403d105137981920de92c1:1149157196,22d7b556e1403d10dfee68cbb8f7b90c:-491380265,07d0399e2b003d10ac7799569e7a0313:1149157196,79d0f59e71003d10de39fbf8b7c73cd8:-491380265,7089dd5672ccf910c6e318354d963eb6:1149157196,e779dd56d0ccf91014707f528d06b315:-491380265,ec4311de4d8cf910a92957e84f04d4b1:1149157196,833311de238cf910f90cde9932060620:-491380265,4e325d5e798cf910884402e0d17cfa84:1149157196,e4325d5e8f8cf910e011d5111e5e4210:-491380265,54d1955ed18cf910b8c1c8fa6d88f972:1149157196,2ac1555e298cf9104be49726eefdc0dd:-491380265,6ec1555e678cf91061757aa0071032dc:1149157196</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_784a03271b936d10d4e599f91d4bcb67</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments>REST header Authorization param</comments><data_type>string</data_type><param_name>authorization</param_name><param_type>auth</param_type><param_value>Bearer &lt;getAPIKey&gt;</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-14 13:11:52</sys_created_on><sys_id>784a03271b936d10d4e599f91d4bcb67</sys_id><sys_mod_count>12</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1112355120</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>5cb5c2161b803d10d1dca685ec4bcbd7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c125ba0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>authorization</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>7b58b19637403d105891165c6d5367dd</update_guid>
+<update_guid_history>7b58b19637403d105891165c6d5367dd:-1112355120,4658b19682403d10df9d83e22a0cea40:-1234829709,c75131de61003d104cc3b1feb1f24b8f:-1112355120,255131decb003d1086c392c3d1ad6f1e:-1234829709,b541bd9eb6003d1058effd80adf3f2e8:-1112355120,cc41bd9e73003d10a74052e9a43c0e93:-1234829709,aa049ddee08cf9105aeb4da387a863c9:-1112355120,f4045dded38cf910ba3248eb2af488f7:-1234829709,3c045ddefb8cf910fa302f265c61f7f6:-1112355120</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_70dd34541b07e150d4e599f91d4bcbe8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Document a script">202a3c9c1bc3e150d4e599f91d4bcb48</request_action><sequence>40</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:22:21</sys_created_on><sys_id>70dd34541b07e150d4e599f91d4bcbe8</sys_id><sys_mod_count>11</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:21</sys_updated_on><text>In the generated documentation, include the following:  Comment lines embedded at the begining of the script, along with comments embedded within each function.</text><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>924981374</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>5cb5c2161b803d10d1dca685ec4bcbda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd6300000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>70dd34541b07e150d4e599f91d4bcbe8</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>b6083d5623403d10a08d1a860b55a6c2</update_guid>
+<update_guid_history>b6083d5623403d10a08d1a860b55a6c2:924981374,f9083d5660403d10754807d2abde766f:912109019,6ef0b99e9c003d10e2126b41e25ea71c:924981374,5df0799ea7003d10ebe1010cd5f7bd94:912109019,c88315defc8cf9109169e7dc8c79e9a1:924981374,627315deb58cf910a119a094d1a3ff69:912109019,a67315ded68cf9107b7fbd76afa56e68:924981374</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_259177041b772550d4e599f91d4bcb75</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>General questions not related to ServiceNow.</description><instances>ALL</instances><name>Ask a general question</name><roles>admin</roles><sequence>15</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 15:36:20</sys_created_on><sys_id>259177041b772550d4e599f91d4bcb75</sys_id><sys_mod_count>12</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>-760545894</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>5cb5c2921b803d10d1dca685ec4bcb9d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7a2e0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Ask a general question</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>0df775561f403d10279738f88a5f3d77</update_guid>
+<update_guid_history>0df775561f403d10279738f88a5f3d77:-760545894,fbe739d214403d10e0e943fed4eb19b6:-1776877083,7ad0b59e2f003d10ec5dc87cf7722a11:-760545894,b5d0f59e00003d102a61f73ab180eac8:-1776877083,b88991d28eccf9108beead623c7b11c1:-760545894,13791116b7ccf91055a2e2f152c28e1f:-1776877083,60439d9e6b8cf91019bcefb1d3ed1872:-760545894,cf3311dee78cf910fd6b644c5f20fd0f:-1776877083,8a325d5ec58cf910352b8a6bcfac6674:-760545894,9832155eae8cf910fa908e5d8ff146ef:-1776877083,04d11d1e3e8cf9108c59452beacaef2e:-760545894,9ac1555e788cf9104e5c4aedfe30edc7:-1776877083,dec1555ef48cf9103d0f98d8f7e0d2c6:-760545894</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_model_b06c67dc1b32a110d4e599f91d4bcb95</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine_model"><x_radi_digi_ai_engine_model action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><authorization>Bearer 1234abcd5678efgh</authorization><default>false</default><description>Optimized for code-completion tasks</description><max_tokens>8001</max_tokens><model>code-davinci-002</model><rest_method/><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-10 16:49:44</sys_created_on><sys_id>b06c67dc1b32a110d4e599f91d4bcb95</sys_id><sys_mod_count>20</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:17</sys_updated_on><type>code</type></x_radi_digi_ai_engine_model></record_update>]]></payload>
+<payload_hash>-160087263</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>90b5c2161b803d10d1dca685ec4bcbd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c0b3c10000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>code-davinci-002</target_name>
+<type>AI Engine Model</type>
+<update_domain>global</update_domain>
+<update_guid>b04831966e403d10e4a45a8bd3ce57b8</update_guid>
+<update_guid_history>b04831966e403d10e4a45a8bd3ce57b8:-160087263,80483196d4403d1035aaa0d1cfd84003:652675652,3831f99ef3003d1058264c465a454103:-160087263,4c317d9e9f003d10b28eb97c2537c22c:652675652,0cf359de508cf910dbc662c8fad3b05f:-160087263,36e31dde778cf910639875b41f887583:652675652,7ae31ddea98cf9101b908d707b124482:-160087263</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_c987cc1c1bb72550d4e599f91d4bcb6d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments>REST header Authorization param</comments><data_type>string</data_type><param_name>authorization</param_name><param_type>auth</param_type><param_value>Bearer &lt;getAPIKey&gt;</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:10</sys_created_on><sys_id>c987cc1c1bb72550d4e599f91d4bcb6d</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1150498104</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>90b5c2161b803d10d1dca685ec4bcbd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1273c0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>authorization</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>0c68b1963f403d102aea6658208a91ed</update_guid>
+<update_guid_history>0c68b1963f403d102aea6658208a91ed:-1150498104,0a58b196af403d104c5aad0065ee4950:1578202629,cf5131de94003d10cb594d35ef90f8c4:-1150498104,f55131def4003d100c6acc2a7aadf52e:1578202629,7941bd9edc003d10b07701daed9392f8:-1150498104,8041bd9ea7003d1038ed0b61e12e03a4:1578202629,6e049dde398cf9106f21e335d8ea7fd9:-1150498104,74049dde1e8cf910ccfef1eccd802b0d:1578202629,b8049dde738cf910662223af69133b0c:-1150498104</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_cb5dfc941b07e150d4e599f91d4bcb78</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Document a script">202a3c9c1bc3e150d4e599f91d4bcb48</request_action><sequence>20</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:20:19</sys_created_on><sys_id>cb5dfc941b07e150d4e599f91d4bcb78</sys_id><sys_mod_count>10</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:20</sys_updated_on><text>And given the following script: \n</text><type>source</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-1942453409</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>90b5c2161b803d10d1dca685ec4bcbdc</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd5030000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>cb5dfc941b07e150d4e599f91d4bcb78</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>7608f95664403d10ab0b8b8c4bb12c4d</update_guid>
+<update_guid_history>7608f95664403d10ab0b8b8c4bb12c4d:-1942453409,75083d56a5403d10d57321e7341f2963:-2006776452,e6f0b99e12003d10947472a006a36a10:-1942453409,d5f0799ead003d107572d5343ca62e88:-2006776452,737315dea68cf910d7307fe740628796:-1942453409,a67315de458cf91051c9ec44ef85ba59:-2006776452,ea7315de718cf91077e6c78a4616f258:-1942453409</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_8a3589f71b262110d1dca685ec4bcb1e</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine"><x_radi_digi_ai_engine action="INSERT_OR_UPDATE"><active>false</active><api_component_name/><api_component_type>script</api_component_type><api_key>1234567890XYZ</api_key><authorization/><default>false</default><description>Google's free bla bla bla</description><engine_id>Google Bard - 1.2</engine_id><frequency_interval>day</frequency_interval><frequency_limit>1000</frequency_limit><midserver display_value="ven42-good-mid">9e8c4609db6fa8102ed422e648961942</midserver><name>Google Bard</name><query_length_max>5000</query_length_max><rest_message/><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-08 15:21:59</sys_created_on><sys_id>8a3589f71b262110d1dca685ec4bcb1e</sys_id><sys_mod_count>14</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:57</sys_updated_on><version>1.2</version></x_radi_digi_ai_engine></record_update>]]></payload>
+<payload_hash>-1197557337</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>94b5c2161b803d10d1dca685ec4bcbd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c063950000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Google Bard - 1.2</target_name>
+<type>AI Engine</type>
+<update_domain>global</update_domain>
+<update_guid>f728fd5669403d1066365e8aee39f673</update_guid>
+<update_guid_history>f728fd5669403d1066365e8aee39f673:-1197557337,8328fd562b403d10c090734868e3563e:-1510359380,48213d9ebc003d104afceb9273027a57:-1197557337,5b113d9e8c003d105a3184fc04d10b28:-1510359380,1fb359dece8cf91019221c3734128e57:-1197557337,f1b359de1d8cf9105fd899e3fd6d281a:-1510359380,a8b39d9e1a8cf91041cdd1235fb124d5:-1197557337,ecb39d9e0c8cf910b919dceed9d2ffd4:-1510359380</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_7fabfdb41bd72110d4e599f91d4bcb58</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments/><data_type>float</data_type><param_name>temperature</param_name><param_type>rest</param_type><param_value>0.9</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 18:25:16</sys_created_on><sys_id>7fabfdb41bd72110d4e599f91d4bcb58</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-655855149</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>94b5c2161b803d10d1dca685ec4bcbd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1265f0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>temperature</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>3b58b196a6403d108bdf6d79f34180e4</update_guid>
+<update_guid_history>3b58b196a6403d108bdf6d79f34180e4:-655855149,0658b19643403d100530c491e8093f47:336439760,cb5131dee3003d10ad0220fd86643abb:-655855149,e15131de5a003d10036db8b3c7872c25:336439760,7541bd9e25003d109927d782ae8450ef:-655855149,8c41bd9eb1003d107a4eb2bc58a4b99a:336439760,6a049dde788cf91008ccd029f7dbe8d0:-655855149,7c049dde288cf91097693b47a1778600:336439760,b0049dde128cf910ef0303d64ba9d100:-655855149</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_78fb39011b1fa110d1dca685ec4bcbe7</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>false</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Modify a script">24101a701b5f6110d1dca685ec4bcb0d</request_action><sequence>40</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-06 13:04:54</sys_created_on><sys_id>78fb39011b1fa110d1dca685ec4bcbe7</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:38</sys_updated_on><text>Return the entire original script with modifications and</text><type>postfix</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-1693383423</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>94b5c2161b803d10d1dca685ec4bcbdb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c018660000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>78fb39011b1fa110d1dca685ec4bcbe7</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>c3183d5606403d10de76019c926b1e1e</update_guid>
+<update_guid_history>c3183d5606403d10de76019c926b1e1e:-1693383423,86187d563e403d10da9d758a9a751ae4:1393566462,cb01799eec003d10a9022e8839dc2b4e:-1693383423,2901799ea8003d107737657f11a8679e:1393566462,84939d9e9c8cf910069f31934b32e487:-1693383423,fe8355de9d8cf910c64a1d6dfcb185d9:1393566462,368355de4e8cf91083547b14c42587d9:-1693383423</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_c49930101b07e150d4e599f91d4bcb7f</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Generate a script include, function, business rule, etc.</description><instances>DEV</instances><name>Write a script</name><roles>admin</roles><sequence>30</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:03:44</sys_created_on><sys_id>c49930101b07e150d4e599f91d4bcb7f</sys_id><sys_mod_count>13</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>1304380212</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>98b5c2161b803d10d1dca685ec4bcbd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7a910000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Write a script</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>01f7f956d5403d107da70d0fcb5a5138</update_guid>
+<update_guid_history>01f7f956d5403d107da70d0fcb5a5138:1304380212,f7e7b95661403d108ec20dfbcae485d6:-1213584897,fad0399e8f003d1023f4baa568849107:1304380212,31d0f59e16003d10f0d3d9307b50fecd:-1213584897,3c89dd5690ccf910e1d98220ab13a578:1304380212,9f79dd5620ccf910d70768c8a243bd09:-1213584897,ec4311de678cf9104602fcef4db7d599:1304380212,4b3311dedf8cf910eb5b2d5e1c16eb14:-1213584897,06325d5efa8cf9101596878e4d89ab79:1304380212,ac325d5e528cf9101bc94d612b4e1904:-1213584897,8cd11d1e528cf910beb64438c01ccd32:1304380212,9ec1555e6b8cf91037dabab44ea831cd:-1213584897,d2c1555e0e8cf910c0d9f9b0da6a59cd:1304380212</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_6a0f75f81bd72110d4e599f91d4bcbce</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="text-davinci-003">0b93f3581b72a110d4e599f91d4bcb05</ai_engine_model><comments/><data_type>integer</data_type><param_name>frequency_penalty</param_name><param_type>rest</param_type><param_value>0</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 18:39:56</sys_created_on><sys_id>6a0f75f81bd72110d4e599f91d4bcbce</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-2133447464</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>98b5c2161b803d10d1dca685ec4bcbd7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c125860000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>frequency_penalty</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>3758b1962a403d10339fbfc6944f9bdb</update_guid>
+<update_guid_history>3758b1962a403d10339fbfc6944f9bdb:-2133447464,0258b196a4403d1031ee3c921a16e53e:-897666283,835131de35003d10538d4e167c774b8d:-2133447464,ed5131de7b003d10ef89a9615e93d71b:-897666283,7141bd9e11003d101353a73bd67d5ce6:-2133447464,8841bd9e88003d102fd72be551fe5b91:-897666283,56049ddef38cf9101bd0fcd169e348c7:-2133447464,74045dde418cf91013cb567a057e11f4:-897666283,b8045dde038cf91097d93e24588463f3:-2133447464</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_664d73fa1b766d10d4e599f91d4bcbdf</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>false</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Ask a ServiceNow question">ae08bc9c1bc3e150d4e599f91d4bcb25</request_action><sequence>25</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-18 12:27:58</sys_created_on><sys_id>664d73fa1b766d10d4e599f91d4bcbdf</sys_id><sys_mod_count>14</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:38</sys_updated_on><text>Given the following as a reference:</text><type>source</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-316780742</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>98b5c2161b803d10d1dca685ec4bcbda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c018320000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>664d73fa1b766d10d4e599f91d4bcbdf</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>0f183d56ba403d108d950ef846b15c1b</update_guid>
+<update_guid_history>0f183d56ba403d108d950ef846b15c1b:-316780742,ce187d5626403d10a3da5e1b3712b4e1:-498810697,0701799e07003d10ff47ea6b2081ed4c:-316780742,6101799ed4003d1011123a05d595a59c:-498810697,40939d9e918cf910c030b68a74edf885:-316780742,7e8355de1b8cf9106b93376d5b6670d6:-498810697,fe8311de998cf9101a8c0a9eab85ef26:-316780742</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_24101a701b5f6110d1dca685ec4bcb0d</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Modify a script include, function, business rule, etc.</description><instances>DEV</instances><name>Modify a script</name><roles>admin</roles><sequence>35</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-05 19:54:21</sys_created_on><sys_id>24101a701b5f6110d1dca685ec4bcb0d</sys_id><sys_mod_count>12</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>561712397</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>98b5c2921b803d10d1dca685ec4bcb9d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7abb0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Modify a script</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>45f7f95693403d100d9b6c0c0309833a</update_guid>
+<update_guid_history>45f7f95693403d100d9b6c0c0309833a:561712397,3fe7b9564b403d1002caa5ebc00b33d8:-1736269598,32d0399ea1003d10389970cb5b7d0e0a:561712397,75d0f59e24003d101320b2abe84fb2cf:-1736269598,7089dd568dccf910af974091e4e9d47b:561712397,d379dd56baccf9106e565b037d02e80c:-1736269598,244311deac8cf910eed41f051343e69c:561712397,8f3311de1a8cf91015c6320c25b7b316:-1736269598,4a325d5ef08cf910049e2e31978d757b:561712397,e0325d5e1a8cf910123e8e6186e04407:-1736269598,40d1955e728cf910dd5fb58a0247a869:561712397,12c1555e588cf9100111880059aefbd1:-1736269598,56c1555e878cf910e0df768b9c683ed0:561712397</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_2897c05c1bb72550d4e599f91d4bcb37</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>integer</data_type><param_name>top_p</param_name><param_type>rest</param_type><param_value>1</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:24</sys_created_on><sys_id>2897c05c1bb72550d4e599f91d4bcb37</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>1736150977</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>9cb5c2161b803d10d1dca685ec4bcbd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c124a00000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>top_p</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>7358b956e1403d10884a2fbcb6b20cf3</update_guid>
+<update_guid_history>7358b956e1403d10884a2fbcb6b20cf3:1736150977,ca58b19623403d10c40dd7f6862f3334:853604132,7e51759ed5003d1018995a10455473a1:1736150977,2551b99ec5003d10c639bddde10ea925:853604132,3541f59e9c003d10d25ce18560454a7a:1736150977,4441bd9e4f003d104c21d138f098c388:853604132,12049ddeb78cf91064cf00332607abbe:1736150977,2c045dde798cf9104b385f62f96af6e7:853604132,60045dde1d8cf910892fb04ec771abe7:1736150977</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_190f00731bd76d10d4e599f91d4bcbbd</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action/><sequence>10</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-14 18:12:17</sys_created_on><sys_id>190f00731bd76d10d4e599f91d4bcbbd</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:20</sys_updated_on><text>Given a ServiceNow instance on the &lt;getPlatformVersion&gt;  release.</text><type>prefix</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-1763011409</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>9cb5c2161b803d10d1dca685ec4bcbd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd48b0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>190f00731bd76d10d4e599f91d4bcbbd</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>7608f95624403d1060d1b12d4a33a048</update_guid>
+<update_guid_history>7608f95624403d1060d1b12d4a33a048:-1763011409,b108355616403d10c0acf94e1ded39b1:-2117487758,2ef0f19e47003d1076d39a07e5f7b0f8:-1763011409,d5f0bd5e2f003d10d4abc0d0ca7fd131:-2117487758,7f739d5e1a8cf910a223d274bc6b6969:-1763011409,9673999e1d8cf91066d79ba1ca4ed244:-2117487758,5a73999eb78cf91007ff3d996d7ff343:-1763011409</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_2ccffc371b262110d1dca685ec4bcbba</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine"><x_radi_digi_ai_engine action="INSERT_OR_UPDATE"><active>false</active><api_component_name>DigiOpenAPI</api_component_name><api_component_type>script</api_component_type><api_key>1234567890ABC</api_key><authorization/><default>false</default><description>Subscription based GPT-4 bla bla bla</description><engine_id>ChatGPT-4 - 1.0.3</engine_id><frequency_interval>week</frequency_interval><frequency_limit>99</frequency_limit><midserver/><name>ChatGPT-4</name><query_length_max>2000</query_length_max><rest_message/><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-08 15:00:12</sys_created_on><sys_id>2ccffc371b262110d1dca685ec4bcbba</sys_id><sys_mod_count>14</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:57</sys_updated_on><version>1.0.3</version></x_radi_digi_ai_engine></record_update>]]></payload>
+<payload_hash>1559908223</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d0b5c2161b803d10d1dca685ec4bcbd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c063560000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>ChatGPT-4 - 1.0.3</target_name>
+<type>AI Engine</type>
+<update_domain>global</update_domain>
+<update_guid>3328fd561c403d10b17ca8a41917b971</update_guid>
+<update_guid_history>3328fd561c403d10b17ca8a41917b971:1559908223,8728b55674403d10022eae83d07db170:-1544535590,c421b99ee9003d107fe49df9d21682ec:1559908223,13113d9e4e003d10c207957a6222b026:-1544535590,13b3d1de188cf910666b583a3a40b2bf:1559908223,3db359de228cf9104b7bc06fc16fff17:-1544535590,e0b39d9e818cf91076329629b36debd2:1559908223,24b39d9e118cf9102623d3f4fe85c6d1:-1544535590</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_7f77001c1bb72550d4e599f91d4bcbd1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>integer</data_type><param_name>frequency_penalty</param_name><param_type>rest</param_type><param_value>0</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:04</sys_created_on><sys_id>7f77001c1bb72550d4e599f91d4bcbd1</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1076941856</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d0b5c2161b803d10d1dca685ec4bcbd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1262c0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>frequency_penalty</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>f358b19696403d1027ded02d1dd995e2</update_guid>
+<update_guid_history>f358b19696403d1027ded02d1dd995e2:-1076941856,ce58b196b4403d1003e752bbd0520c44:-1879206205,875131de75003d1081cfafec5bf832b9:-1076941856,ad5131dea8003d10b6fe8350c1bd3522:-1879206205,3141bd9e6f003d102bd99e2bc10be1ed:-1076941856,4841bd9e2b003d1065bc232e7a83c498:-1879206205,26049dde048cf91012dc6bfbd339d9ce:-1076941856,f8045ddea38cf910a558e20ee2ed97fd:-1879206205,30045ddef28cf910c97ccb1c375b9dfd:-1076941856</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_769f88731bd76d10d4e599f91d4bcb68</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action/><sequence>38</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-14 18:14:50</sys_created_on><sys_id>769f88731bd76d10d4e599f91d4bcb68</sys_id><sys_mod_count>12</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:21</sys_updated_on><text>If the answer includes javascript code, begin the code block with "&lt;getBlockDelimiterBegin&gt;" and end the code block with "&lt;getBlockDelimiterEnd&gt;".</text><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-571253275</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d0b5c2161b803d10d1dca685ec4bcbdb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd5c20000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>769f88731bd76d10d4e599f91d4bcb68</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>3a083d563c403d10072f6c094ab1a4bd</update_guid>
+<update_guid_history>3a083d563c403d10072f6c094ab1a4bd:-571253275,7d083d5626403d10a69ab04e3e15a06a:944040898,eef0b99efe003d1033edaefe911b8b17:-571253275,ddf0799e0d003d1009b2ea1d592c508f:944040898,737315de778cf9107ee6badee781a79d:-571253275,6e7315de328cf9108e81e5bcb5407662:944040898,a27315de3c8cf91069ac778de988eb62:-571253275</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_ae08bc9c1bc3e150d4e599f91d4bcb25</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>General "how to" questions, bla bla</description><instances>ALL</instances><name>Ask a ServiceNow question</name><roles>itil</roles><sequence>10</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 13:58:16</sys_created_on><sys_id>ae08bc9c1bc3e150d4e599f91d4bcb25</sys_id><sys_mod_count>18</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>-1659384778</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d0b5c2921b803d10d1dca685ec4bcb9e</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7a000000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Ask a ServiceNow question</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>c5f775562d403d1012b45a8cb8b4e975</update_guid>
+<update_guid_history>c5f775562d403d1012b45a8cb8b4e975:-1659384778,b7e739d29a403d10b1ca78419895d3b4:-661047733,b2d0b59ee9003d10533c3af03effcb0f:-1659384778,6dd039da1a003d103034770c956636b1:-661047733,648991d20dccf910d80df45b98c846bf:-1659384778,9b7911168accf910a70d6847f743bf1c:-661047733,2c439d9e278cf910c549b7dfb5db146f:-1659384778,8b331d5e128cf910c46e93f103e9a09e:-661047733,53f25d1eb98cf91083caa3d5879d9ecd:-1659384778,75f2999e168cf91022174c5c76ea91f4:-661047733,fd32595ee68cf910724f73a10e92ccd9:-1659384778,5432155ec28cf910791e8e6524d93bed:-661047733,4cd11d1eb18cf910982fc8dcdfa5f62b:-1659384778,42c1991eec8cf910d23f70a85fa8f3a4:-661047733,c2c1991e3b8cf910d3391671f4a8f5a3:-1659384778</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_afd834501b07e150d4e599f91d4bcb23</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Create a Knowledge article</description><instances>PROD,DEV</instances><name>Compose a KB article</name><roles>knowledge</roles><sequence>20</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:02:21</sys_created_on><sys_id>afd834501b07e150d4e599f91d4bcb23</sys_id><sys_mod_count>14</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>-14087850</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d4b5c2161b803d10d1dca685ec4bcbd4</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7a5e0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Compose a KB article</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>c9f7f956c1403d101723395e3c954a35</update_guid>
+<update_guid_history>c9f7f956c1403d101723395e3c954a35:-14087850,b3e7b95650403d10a17ab771788d5cd4:-1766537749,b6d0399e81003d10f90f675fe4eed005:-14087850,f9d0f59e9e003d10b270bb562cb72dca:-1766537749,f489dd56f2ccf9106a64bdfd61388f76:-14087850,5b79dd56b5ccf910529517a8ca5c5507:-1766537749,a84311dee98cf91092b128f2e1268e97:-14087850,073311de818cf9107a2a26bccc198f12:-1766537749,ce325d5e718cf91043f19118c4ec2376:-14087850,dc32155e5f8cf910fdac9c6f49b0bff1:-1766537749,48d11d1e758cf9104e3d816a356b4530:-14087850,1ec1555e438cf9104e06f2b8b6b66bca:-1766537749,52c1555e898cf910e841f9fdbb6a40ca:-14087850</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_5a87805c1bb72550d4e599f91d4bcba1</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments>Tokens are not words.  It's complicated.  Requests can use up to 4097 tokens shared between prompt and completion. If your prompt is 4000 tokens, your completion can be 97 tokens at most. See: https://help.openai.com/en/articles/4936856-what-are-tokens-and-how-to-count-them . </comments><data_type>integer</data_type><param_name>max_tokens</param_name><param_type>rest</param_type><param_value>4000</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:15</sys_created_on><sys_id>5a87805c1bb72550d4e599f91d4bcba1</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>2028544637</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d4b5c2161b803d10d1dca685ec4bcbd7</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c125490000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>max_tokens</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>ff58b19681403d104ccf1dd8b0917ad8</update_guid>
+<update_guid_history>ff58b19681403d104ccf1dd8b0917ad8:2028544637,ca58b196c5403d106c07a36834d1c03b:511730106,4f5131ded6003d102d93b89ac62f188a:2028544637,a95131dee6003d10134401e21368b319:511730106,3d41bd9e30003d103cf76da5d43b9de3:2028544637,4441bd9e7a003d1017fa85fb42224e8f:511730106,12049ddef88cf9100d6a6d3c59ea73c5:2028544637,f0045dde838cf9103cf25876ea0276f1:511730106,38045dde0a8cf910eb87af3487a032f0:2028544637</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_4d127f041b772550d4e599f91d4bcb79</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Ask a general question">259177041b772550d4e599f91d4bcb75</request_action><sequence>10</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 15:38:30</sys_created_on><sys_id>4d127f041b772550d4e599f91d4bcb79</sys_id><sys_mod_count>6</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:20</sys_updated_on><text/><type>prefix</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>680993269</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d4b5c2161b803d10d1dca685ec4bcbda</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd4c10000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>4d127f041b772550d4e599f91d4bcb79</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>7e08f956db403d10ed29454d2116d74a</update_guid>
+<update_guid_history>7e08f956db403d10ed29454d2116d74a:680993269,7d083d56fd403d10c929833a1c904660:2145183992,26f0f19e32003d10e7a4761bec468efb:680993269,ddf0799e19003d106e1ce70cf27f9585:2145183992,fb7315de8b8cf9102045b6faa3866193:680993269,e27315dee38cf910bfebee0f1121d656:2145183992,1a7315de0f8cf91024866ec29e3ca655:680993269</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_actions_202a3c9c1bc3e150d4e599f91d4bcb48</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_actions"><x_radi_digi_actions action="INSERT_OR_UPDATE"><active>true</active><description>Given a script, ask AI to document the code.</description><instances>DEV,QA</instances><name>Document a script</name><roles>admin</roles><sequence>60</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-22 14:06:13</sys_created_on><sys_id>202a3c9c1bc3e150d4e599f91d4bcb48</sys_id><sys_mod_count>21</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:46:57</sys_updated_on></x_radi_digi_actions></record_update>]]></payload>
+<payload_hash>232657344</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d4b5c2921b803d10d1dca685ec4bcb9d</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bf7b540000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>Document a script</target_name>
+<type>Actions</type>
+<update_domain>global</update_domain>
+<update_guid>15f7f956d2403d10b3727b8c35762041</update_guid>
+<update_guid_history>15f7f956d2403d10b3727b8c35762041:232657344,fbe7b956ca403d102574b3c9600e72df:-528175925,fbb571d24d403d1072383efce379ece1:232657344,a8b5f5d2a1403d10b19bffbcb73d31b2:-528175925,3165fd9255403d102dfbe2332bb17442:232657344,5565b1d212403d100dc1b5f437d7e241:-528175925,e6f4b952ce403d1057d97bc32f5dfd4c:232657344,d6f4b59248403d102fd3d6d53a8ed5a2:-528175925,cfd0399ece003d1031643ef9d6ee3810:232657344,35d0f59edd003d10f420c3daf95f8cd6:-528175925,fdd76556bb003d1054c582b86708ee6d:232657344,19d7e116d9003d109804035d79403309:-528175925,3c89dd568fccf9103190b7f9e28c5db3:232657344,a379dd56eaccf910cab9d67d7e10ef13:-528175925,e04311de5f8cf910a8e5e1eea062f5a3:232657344,4f3311dedb8cf910b3208cabcf45951d:-528175925,0a325d5eb78cf910729ca892cb1e0782:232657344,a0325d5e1a8cf9103aa3512da00fff0e:-528175925,10d1955e368cf91092a18b4463e49170:232657344,96c1555e988cf9105cf0cbfdb416c4da:-528175925,dac1555ede8cf91001ce70746c8072d9:232657344</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_24770c1c1bb72550d4e599f91d4bcb0a</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>string</data_type><param_name>model</param_name><param_type>rest</param_type><param_value>gpt-3.5-turbo</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:11:51</sys_created_on><sys_id>24770c1c1bb72550d4e599f91d4bcb0a</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:46</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-577603777</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d8b5c2161b803d10d1dca685ec4bcbd6</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1246b0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>model</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>3f58b956b1403d104acaa26da0a16bf0</update_guid>
+<update_guid_history>3f58b956b1403d104acaa26da0a16bf0:-577603777,f9587956c0403d105f75d50fed268903:-464935940,3a51759e8d003d107761498c78e3be9f:-577603777,ed51b99e15003d10c4a259bdf5638122:-464935940,ed41f59e1d003d10de29f0e17a78f577:-577603777,c0417d9e30003d10f6e784cb7922d036:-464935940,da049ddea88cf9103b2092b3448571bb:-577603777,e4049d9ea18cf9107a669ed5937b77e1:-464935940,2c049d9e5c8cf9103371edd502c084e0:-577603777</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_e997c05c1bb72550d4e599f91d4bcbd8</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>array</data_type><param_name>stop</param_name><param_type>rest</param_type><param_value>[" Human:", " AI:"]</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:28</sys_created_on><sys_id>e997c05c1bb72550d4e599f91d4bcbd8</sys_id><sys_mod_count>4</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>-1958825978</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>d8b5c2161b803d10d1dca685ec4bcbd9</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c127e30000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>stop</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>c868b1962f403d105c78bea6c1ac61f4</update_guid>
+<update_guid_history>c868b1962f403d105c78bea6c1ac61f4:-1958825978,c658b196c3403d105b54cad3998d1957:-723044797,2e049dde728cf91074757e16060800e0:-1958825978,c9049dde8d8cf9102f62921c58433316:-723044797,01049dde588cf910afa47ab1cb69c016:-1958825978</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_engine_model_5a9da1a91b836950d4e599f91d4bcb39</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_engine_model"><x_radi_digi_ai_engine_model action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><authorization>Bearer 1234abcd5678efgh</authorization><default>false</default><description>Similar capabilities to text-davinci-003 but trained with supervised fine-tuning instead of reinforcement learning</description><max_tokens>4097</max_tokens><model>text-davinci-002</model><rest_method/><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-05-26 15:03:29</sys_created_on><sys_id>5a9da1a91b836950d4e599f91d4bcb39</sys_id><sys_mod_count>11</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:17</sys_updated_on><type>text</type></x_radi_digi_ai_engine_model></record_update>]]></payload>
+<payload_hash>-1745916280</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>dcb5c2161b803d10d1dca685ec4bcbd5</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c0b3860000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>text-davinci-002</target_name>
+<type>AI Engine Model</type>
+<update_domain>global</update_domain>
+<update_guid>7c48319642403d1042b563cb051c96b5</update_guid>
+<update_guid_history>7c48319642403d1042b563cb051c96b5:-1745916280,4c483196a5403d1017f9e9474bb20c00:-338316027,f031f99e76003d108b6d9613e3807701:-1745916280,0431f59e65003d10584487ec02cbd224:-338316027,c4f359dece8cf910338b1c935a6e725d:-1745916280,b2e31dde4a8cf9101cc991f164215a80:-338316027,f6e31dde1a8cf910b67fc31fd8acd57f:-1745916280</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_model_params_a787001c1bb72550d4e599f91d4bcbd3</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_model_params"><x_radi_digi_ai_model_params action="INSERT_OR_UPDATE"><active>true</active><ai_engine_model display_value="gpt-3.5-turbo">b0b6c01c1bb72550d4e599f91d4bcb62</ai_engine_model><comments/><data_type>float</data_type><param_name>temperature</param_name><param_type>rest</param_type><param_value>0.9</param_value><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-06-28 17:12:19</sys_created_on><sys_id>a787001c1bb72550d4e599f91d4bcbd3</sys_id><sys_mod_count>8</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:48:47</sys_updated_on></x_radi_digi_ai_model_params></record_update>]]></payload>
+<payload_hash>170874587</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>dcb5c2161b803d10d1dca685ec4bcbd8</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964c1270f0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>temperature</target_name>
+<type>AI Model Params</type>
+<update_domain>global</update_domain>
+<update_guid>c468b1967c403d10f9b4069ea147aaeb</update_guid>
+<update_guid_history>c468b1967c403d10f9b4069ea147aaeb:170874587,c258b19616403d1053cf9abd3b98d14e:213149694,8b5131def6003d1022505126d2ced8c2:170874587,a15131de16003d100f61f39a1979d02c:213149694,3541bd9e85003d10169f237ef1296ff6:170874587,4c41bd9e13003d108997f3dabfe239a1:213149694,2a049dde008cf910acd9a19a36f74fd7:170874587,f0049dde5f8cf910ca47427bb6db0f0a:213149694,38049ddeab8cf910d09a36e10c8fda09:170874587</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>x_radi_digi_ai_prompt_9a99cab21bb32190d4e599f91d4bcb32</name>
+<payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="x_radi_digi_ai_prompt"><x_radi_digi_ai_prompt action="INSERT_OR_UPDATE"><active>true</active><ai_engine display_value="OpenAI - 1.0.3">cc573b9c1b72a110d4e599f91d4bcb05</ai_engine><request_action display_value="Write a script">c49930101b07e150d4e599f91d4bcb7f</request_action><sequence>35</sequence><sys_created_by>rob.witty@rapdev.io</sys_created_by><sys_created_on>2023-07-06 21:05:18</sys_created_on><sys_id>9a99cab21bb32190d4e599f91d4bcb32</sys_id><sys_mod_count>12</sys_mod_count><sys_updated_by>rob.witty@rapdev.io</sys_updated_by><sys_updated_on>2023-07-17 16:47:20</sys_updated_on><text>This function should use the syntax of a function that would be included as part of a Javascript Prototype object. </text><type>format</type></x_radi_digi_ai_prompt></record_update>]]></payload>
+<payload_hash>-1805612876</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>dcb5c2161b803d10d1dca685ec4bcbdb</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964bfd58b0000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table/>
+<target_name>9a99cab21bb32190d4e599f91d4bcb32</target_name>
+<type>AI Prompt</type>
+<update_domain>global</update_domain>
+<update_guid>72083d5697403d1087664ec53667e5bb</update_guid>
+<update_guid_history>72083d5697403d1087664ec53667e5bb:-1805612876,b5083d563e403d100c1583dc359be668:1100033041,2af0b99e42003d10a16912d013a11115:-1805612876,19f0799e52003d10539982f5bebafa8d:1100033041,3f7315ded68cf910afb1fa2043e6b49a:-1805612876,ea7315dea38cf910a8b610ba3e9cde5f:1100033041,227315de388cf9105d1bc0985621155f:-1805612876</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+<sys_update_xml action="INSERT_OR_UPDATE">
+<action>INSERT_OR_UPDATE</action>
+<application display_value="Global">global</application>
+<category>customer</category>
+<comments/>
+<name>sys_script_client_5e7469fc1b36e110d1dca685ec4bcb89</name>
+<payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;record_update sys_domain="global" table="sys_script_client"&gt;&lt;sys_script_client action="INSERT_OR_UPDATE"&gt;&lt;active&gt;true&lt;/active&gt;&lt;applies_extended&gt;false&lt;/applies_extended&gt;&lt;condition/&gt;&lt;description&gt;Type @digi (space) to prompt .&amp;#13;
+&amp;#13;
+TODO &amp;#13;
+- Move stop word to property/configuration&lt;/description&gt;&lt;field/&gt;&lt;global&gt;true&lt;/global&gt;&lt;isolate_script&gt;false&lt;/isolate_script&gt;&lt;messages/&gt;&lt;name&gt;Digi Invoke&lt;/name&gt;&lt;order/&gt;&lt;script&gt;&lt;![CDATA[var digiDlg,
+	stopWord = "@d" + "igi",
+	isPrompt = 0;
+
+function onLoad() { 
+	var el = g_form.elements,
+		scriptArr = Array('script', 'script_client', 'script_plain', 'script_server', 'xml', 'html'),
+		txtEl = [],
+		type,
+		i,
+		editorType = "monaco";
+
+	if(typeof monaco != "undefined"){
+		editorType = "monaco";
+	} else if(typeof CodeMirror != "undefined") {
+		editorType = "codemirror";
+	//} else if(isTinyMCEIncluded()) {
+	} else {
+		editorType = "tinymce";
+	} 
+
+	
+	for(i = 0; i &lt; el.length; i += 1 ){
+		type = String(el[i].type);
+		if(scriptArr.indexOf(type) != -1){			
+			var scriptElId = String(g_form.getElement(el[i].fieldName).id);
+			switch(editorType){
+				case 'monaco':
+				
+					txtEl.push({
+						"selector": '[id="div_' + scriptElId + '"]',
+						'type': (type == 'xml') ? 'html' : 'javascript', 
+						'editorId': scriptElId
+					});
+				break;
+				case 'codemirror':
+					txtEl.push({
+						"selector": '[id="' + scriptElId + '"]',
+						'type': (type == 'xml') ? 'html' : 'javascript', 
+						'editorId': scriptElId
+					});
+				break;
+				case 'tinymce':
+					txtEl.push({
+						"selector": '[id="' + scriptElId + '"]',
+						'type': (type == 'xml') ? 'html' : 'javascript', 
+						'editorId': scriptElId
+					});
+				break;
+			}
+			
+		}
+	}
+	if(txtEl.length &gt; 0) {
+		if(editorType == "monaco" || editorType == "codemirror"){
+			$j(document).on('keyup', function(evt, node){ //using document because ids don't exist yet
+				for(i = 0; i &lt; txtEl.length; i += 1 ){
+					var curVal = g_glideEditors[txtEl[i].editorId].editor.getValue();
+					if(curVal.indexOf(stopWord) != -1 &amp;&amp; isPrompt == 0){
+						isPrompt = 1;
+						renderDigiPrompt(txtEl[i].editorId, txtEl[i].type, editorType);
+						//g_glideEditors[txtEl[i].editorId].editor.setValue(curVal.split(stopWord).join(""));	//replace stopWord in Editor TODO - make much more elegant
+					}
+				}
+			});
+		} else {
+			for(i = 0; i &lt; txtEl.length; i += 1 ){
+				//KB Articles - do not invoke (future)
+				//initDigiTinyMCE(txtEl[i].editorId, txtEl[i].type, editorType);
+			}
+			
+		}
+		
+	}
+}
+
+function initDigiTinyMCE(editor, codeType, editorType){
+	setTimeout(function () {
+		tinyMCE.editors[editor].on('keyup', function(e, node){
+			var curVal = tinyMCE.activeEditor.getContent();
+			if(curVal.indexOf(stopWord) != -1){
+				renderDigiPrompt(editor, codeType, editorType);
+				isPrompt = 1;
+				//tinymce.activeEditor.setContent(curVal.split(stopWord).join(""));
+			}
+		});		
+	}, 1000);
+	
+}
+
+function renderDigiPrompt(editorId, language, editorType){
+	var dialogClass = window.GlideModal ? GlideModal : GlideDialogWindow;
+	digiDlg = new dialogClass('x_radi_digi_digi_prompt', true);
+	digiDlg.setTitle("Digi Script Helper");
+	digiDlg.setPreference('sysparm_editor_type', editorType);
+	digiDlg.setPreference('sysparm_editor_id', editorId);
+	digiDlg.setPreference('sysparm_editor_language', language);
+	digiDlg.setWidth(1000);
+	digiDlg.setBackdropStatic(true);
+	digiDlg.render();
+}
+
+
+]]&gt;&lt;/script&gt;&lt;sys_class_name&gt;sys_script_client&lt;/sys_class_name&gt;&lt;sys_created_by&gt;dana.aft@rapdev.io&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2023-05-11 20:13:05&lt;/sys_created_on&gt;&lt;sys_domain&gt;global&lt;/sys_domain&gt;&lt;sys_domain_path&gt;/&lt;/sys_domain_path&gt;&lt;sys_id&gt;5e7469fc1b36e110d1dca685ec4bcb89&lt;/sys_id&gt;&lt;sys_mod_count&gt;149&lt;/sys_mod_count&gt;&lt;sys_name&gt;Digi Invoke&lt;/sys_name&gt;&lt;sys_overrides/&gt;&lt;sys_package display_value="Global" source="global"&gt;global&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sys_script_client_5e7469fc1b36e110d1dca685ec4bcb89&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;rob.witty@rapdev.io&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2023-07-17 17:46:04&lt;/sys_updated_on&gt;&lt;table&gt;global&lt;/table&gt;&lt;type&gt;onLoad&lt;/type&gt;&lt;ui_type&gt;0&lt;/ui_type&gt;&lt;view/&gt;&lt;/sys_script_client&gt;&lt;/record_update&gt;</payload>
+<payload_hash>2022606350</payload_hash>
+<remote_update_set display_value="Digi Global">d8b5c2921b803d10d1dca685ec4bcb9c</remote_update_set>
+<replace_on_upgrade>false</replace_on_upgrade>
+<sys_created_by>rob.witty@rapdev.io</sys_created_by>
+<sys_created_on>2023-07-17 17:46:58</sys_created_on>
+<sys_id>dcb5c2921b803d10d1dca685ec4bcb9c</sys_id>
+<sys_mod_count>0</sys_mod_count>
+<sys_recorded_at>18964f599190000001</sys_recorded_at>
+<sys_updated_by>rob.witty@rapdev.io</sys_updated_by>
+<sys_updated_on>2023-07-17 17:46:58</sys_updated_on>
+<table>global</table>
+<target_name>Digi Invoke</target_name>
+<type>Client Script</type>
+<update_domain>global</update_domain>
+<update_guid>87758ad2d6803d1004e1380bd76d86d5</update_guid>
+<update_guid_history>87758ad2d6803d1004e1380bd76d86d5:2022606350,c0430a5240803d10b2480b9ca27e16b1:-1376123852,19138652f6803d1040c4b1efaa555d11:711955878,aa0e2b00207725500c8fd3f81e452417:-1752822351,9c8dafcc033725507439c17cacbe8c09:1489736248,3c6d2bcc6337255082f1cc8582500eff:-1643128081,333d27cc3137255054ce9fd570c7d6c6:-129670204,b4fc6f4c3137255011ab80f45e276fcd:-942329828,349631ae38636d104dc7063ac71866d6:-1198068240,057209a5d61b2510188aaae994f354fd:1279177195,2b120d65e41b2510756362f921a21b2b:1775987583,a8d14565b51b25100f4efd157a7f7cd1:584550047,91714565821b251096d749eefb52904d:1083607066,4c518165301b251096f82f1d9e3ec163:-1020898195,9e21cd25011b2510f64710682fc0037a:-880097129,f4010d25e71b25103bfbb721a2e2938f:1557554797,dbc00525a31b2510f32f93ee0971ea6d:2087376375,3e7049e14c1b25107633a207bc4ff937:-1945428614,f8efb4e1f31b2510ad6b800313b9687b:1953612045,728fbca1a21b2510b43d97af67f9bf98:-270708816,a73fb4a1b21b2510e2cf08ca6089d1e2:14987604,3ebe3c61fb1b2510d95770b82671de01:1869022067,373e3c212b1b2510480e1bd3af0d3ebe:-666199336,437db06db6d725101c0e4ed6ed8967ee:-1084937748,7f9cf9419d1fa110cbcb6c49791fc607:1279177195,add0e2f4f19f6110f32b64043f5a8fd5:1103459519,19802ab4009f61102e3b169ba5033825:-85321761,673fde34139f6110e45b657dd3ee20e0:-1975056233,7ffe9274699f611036365ba3f457f68f:1678773224,afde1e349f9f6110fa2ead3c890bc68e:1887219336,589e9234c89f6110d61ec884d7249d08:800677012,57fc9ab09d9f6110e5061f9ef331a198:-899281479,b4ca9230c89f61106a2c76abccab7585:-383884583,76d992bcaa5f61105e601ac3cd803039:-899281479,b122daf04c5f6110b964479e319e6738:-383884583,331f0230ab5f61106328b58a8573b01b:-899281479,58acc67cfa1f61109ba4a20ae87d1305:-1808899495,f8f385abe4cf619085f2ca4ae816c462:1786648935,5e13c56b54cf6190ceaa8bb27491f42e:-1445628382,071205eb830f6d509501fcbc208da84d:-1846493911,b6dcac67b2cb6d50f92f488731ec3bc8:1146468466,d09c2867e2cb6d5025c8bebef7fd1685:181312837,344ce8e3a6cb6d509b9c63664f4908f5:1352900804,d0db602748cb6d50f416d5e42a6df911:-557898312,3daba8a369cb6d5032011255245e26ac:2056141720,f37b682708cb6d50ed5092c380fcbe99:12886153,bf2b2427f6cb6d50974b830769161902:519262285,58aaa4a340cb6d50409c63f43a0012ec:1352900804,469a68e38bcb6d504283a590498ec1cc:60770389,067aa863f0cb6d505d8d1cb8bc74d1ed:-1545989535,012aa863bfcb6d50e59d04e1ba71f09a:1886706400,4689a863ffcb6d5025b1fff7d2b03494:-272634299,c36924633dcb6d50924afe25450a5a5c:-1212022373,0ec868efd98b6d50f85ae33889d82f2a:1626324303,1478a063b1cb6d5054ebb24c243c8ac9:1024789485,11b7a4230acb6d50fe9d33c6e8bfa135:-1174195434,66976023d9cb6d501c4b2337615de3a8:-570839831,297720233ecb6d50cc3623a886d19e22:-45024463,22376caf858b6d50125b3fac5fc56e97:-1355132794,1307e4ef028b6d505ad1f90f36aef857:-788057950,6384ec2f838b6d50f0d8770495770cf0:-1393035313,ac54e0ab208b6d500e133d9e693074f5:-1977879209,5e34a0ab918b6d50965a120a3fa499ee:-775392311,77f3602f7a8b6d5049910b2aafbf02bb:196750198,cad328ebf88b6d5037c4bbdf60ac9edf:114361234,9c6364ab6d8b6d5009b758d3eeaa3569:-2067583598,aeb264ab718b6d502cd7d26a97e36362:-1861228047,128268abd28b6d50089d04579ca4fb6a:-497190240,6e226c6b3f8b6d50f9ced7772ba8cc7a:1471535602,d1f16c6b068b6d500d4bf4d8aa0ea676:-545117547,22c1ac2b098b6d5002d5598d6f483a91:1259260954,0fa1e06b8d8b6d5086e604c90f087315:-381178376,7d91ac2b6b8b6d507e7dad013366e177:-211094559,6349f6179776ed106e2072d410b3c414:-1074422646,08331d4f7e722d10cdc5364d39a50a1b:-1261960955,ef82d90fdc722d10b738660e0ffe9006:1757965088,3b32550fe6722d106781e37c19494917:307055504,d9f15dcbd1722d10737db3cdf83607c7:794634554,e6b19dcb72722d100e88bfb0b50d5503:-1485466908,24a199cb72722d1098e52c8427b31da0:704163119,9d61d5cb2d722d10e41184e1ee67bb53:-1646680448,861f850b8f722d1098cc78c7f7c0db8c:246528035,c65e8987d2722d105ae5d94b51188042:-1320526657,954e09c7d3722d108838f91d45211220:-1255169238,7d7d894724722d105889cb692b5d78ea:88211245,a53d05878d722d100c15493e760968b0:2098297590,52dc094752722d10bd1c7ec7f2ab1104:415964041,6cccc90706722d104796dd8a191e3456:-789349504,a89cc507a4722d10626177a3515afee0:1894177920,c70cc983cf722d101ab088e51fefd170:-621781665,71bb41c336722d109a63eb29801e710c:-1411553034,5b5b8983ca722d10417c9b3408274a88:672129383,d03bc143d9722d10fd3fa747f0d1eba1:-1411553034,4afac903c7722d10bdc40fbe9df07248:-621781665,0449cdcfec322d10877a2c825b0d9328:-1259953218,37608c32e3362d104db4721a02f0c520:-505600324,0a60843263362d10466d8bcef5d6de3c:1314406834,67500c3206362d10adef339d521ff060:267558770,722004fec8f22d1029fd9211f2317611:-920666580,f4ef3fee51f22d10f082c1bcdd8df4d9:776852694,3c8f7bee6ff22d100b504755961d865b:-862369137,000c77eaccf22d105b057233a54b666b:-1971089097,6c3bbf6a25f22d1024f37913d639910e:2060606319,64ea376a1bf22d108e081fdaeb81dcfa:-221805203,c39873e647f22d102354fc691636fbd2:193398497,4968ffa693f22d10069af29d1749581e:-2597471,f5487ba697f22d10800bdb4fdeda64f9:715545503,d538f7a6fcf22d105598904d12c610c4:1040571612,9c183ba608f22d10f0a61ad33bf15439:-2597471,13f7f7a683f22d107126e79fbb16d0bc:2018899324,75a63ba2bdf22d10a19681f86dd6a92b:1918232944,9f863f2666f22d105d9f10dadc8055e9:-1269379413,ad76bfe2c4f22d10e08898eb8a8e8d40:1563325652,9ae57fe2c4f22d10211acfc8c2fac5f5:-655769930,bb75b3a25af22d10013a5075e10dce39:870912854,f165f3e216f22d10c28c9c9668625c79:1868561677,9a35ffa288f22d10ef521a7927740b54:1627760003,8ae43f6269f22d10931e05d3f68afe37:-1418462151,6484bf626bf22d10925871ee372c97e9:1952861221,8004f76246f22d10430e69e1547606d2:2121183374,92b337620cf22d10a7585cecfc09d8d7:-2101267270,2793bf221ff22d1088a0a2cc776641d9:-1738237286,8b63b322f6f22d100c3387619bd695bd:157690100,acd27b6e0db22d10ef69ca9d51545f2c:-1278115359,048277eeb6b22d101315d7b9835cce52:1647311463,270237ee52b22d10cf7d675103094632:-2042922333,11e1b3ae50b22d10d904887de736afb0:-1549303729,c52df2dea43a69102572073407263332:2115919921,edccfa9ef53a69102b58ba135735edac:-443277055,abac3a9e863a69103ba05fdf609c91d4:660798572,3a35b6d6713a691050da404aa4825287:1007710871,6d74bad24a3a6910a9b4d4e699c6715e:1088429402,82a3bed2903a6910eed6867fd26dc9af:870477568,22933656cd3a69106886e70f86751f65:712911762,b6533a56a33a691008128bc5ef3adb45:-243055575,88337656323a69109f9d79c9e58f9ea3:-1415474145,3423f6d2113a691026370fc9e04c85da:-1882415029,5042f2d2843a6910017252a6eedb870a:-660626367,5c223ad2453a6910aeeea49545bfde9f:1567928184,3dc1bed2173a69107800f4651dee92a8:634127413,da217692de3a69102792f7dec0434262:253056888,b68e26125a3a69109da5ea2e4c1d0576:1326531852,796da2de34f66910bbde003c7670c2b8:-275100046,582da65ea4f66910833702d1abda0b4b:-1204210092,570d2e9ed0f66910e24a53c53a22a6f2:-1535260015,e6fca65e7bf66910e090a4678fb17746:826170821,e1bc2e5e8af669104a0d2d5bb31d0e33:681718621,aa9ce25e91f669108f988437131d7ccf:662123905,f48ca65ed0f669109af09f2020f915e6:1153470783,714c665ebaf66910af57a4247439d781:1541299440,7c3cea5e9bf669104d7bb31b41cc173d:2130394543,970ce25ebff669108487191d3ba8bdcb:691855462,c6fb6a5e7af6691027ec6fd95415bfd8:-1737930997,1e5a29f09676e1109bfafe8c301c1a18:-1068176474,064aad747276e11047e699f8dc05d6cc:-1135660921,77b721f0fb76e110b13168775f334994:452113335,ec77a5b03576e1106e0919edeb2d8b9d:493513568,6457e930f876e110bbad1a0da031aec0:-93526919,9b3761b04076e1101ddb2d80475c9b6a:-993446841,1d272db0f976e1101660fe070535bfcc:1526513770,830761b00876e110df371adea2a50965:-1269554844,49c661b00b76e110dbf0d92b2e60a3a2:-1265259579,65a5a930fc76e11031348422188dfae1:-2039805407,4265a9306376e11059d152fb4ba302dd:-1108286999,5e55ad30dd76e11079de45da4ed7374a:-1286954571,3c252930cd76e1106b9eee254d1c8e59:874940895,dbf4e1301376e1102a0dbdcb779a896b:-1387395581,1fe4adfc2736e1107299745c7eb705ea:-2108693110,98b4adfc7a36e110bca471f6f43887c8:1459817144,239461308476e11094b8e945f58cb246:-277459848</update_guid_history>
+<update_set display_value=""/>
+<view/>
+</sys_update_xml>
+</unload>
