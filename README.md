@@ -146,7 +146,7 @@ None
 
 
 
-**The Future for Digi**:  
+** The Future for Digi **:  
 * Pre-training data collation   
 * Ready to run jobs that will take relevant information in your ServiceNow instance and the publicly available ServiceNow information to prepare structured pre-training data for your models.  
 * Starcoder in a box  
