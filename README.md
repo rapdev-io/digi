@@ -1,6 +1,22 @@
 #  Digi #
 
 Meet your new ServiceNow Digital Developer, ‘Digi’.
+## Installation Instructions:  
+
+**Plugin Requirements**
+>None
+
+**Update Sets**  
+
+In this repo there are two update sets:  
+
+**Digi Global**  
+>Contains the UI component and configuration data rows   
+
+**Digi**  
+>Contains the scoped application  
+
+You can upload these to your ServiceNow Instance in any order, and commit
 
 **What Digi does**:  
 >Digi gives ServiceNow developers a github co-pilot like experience directly on the ServiceNow platform to assist with generating code.  
