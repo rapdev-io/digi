@@ -35,7 +35,8 @@ Head to the repo, take Digi for a spin, collaborate with the project team and cr
 
 
 ## Database Architecture ##  
-![image](https://github.com/rapdev-io/digi/assets/34044520/96c1abb8-f29a-4161-b6cf-a894e03f247a)
+![image](https://github.com/rapdev-io/digi/assets/34044520/800bf0e5-0175-4a45-b1e6-6515f2b2907b)
+
 
 **Request**  
 >Defines a request made by a user to an AI engine. 
@@ -154,11 +155,15 @@ None
 
 
 ## Object Entity Relationships ##
-![image](https://github.com/rapdev-io/digi/assets/34044520/a7ed54ed-ee4b-4f44-ab64-24a1f946477d)
+![image](https://github.com/rapdev-io/digi/assets/34044520/33ffe6f1-263c-405c-8da4-563110cb91fa)
+
+
 
 
 ## Software Structure ## 
-![image](https://github.com/rapdev-io/digi/assets/34044520/6862a6c4-4238-4275-9d43-4e0e17003293)
+![image](https://github.com/rapdev-io/digi/assets/34044520/896dbbda-efc9-46c0-9fa6-956abb13ee90)
+
+
 
 
 
